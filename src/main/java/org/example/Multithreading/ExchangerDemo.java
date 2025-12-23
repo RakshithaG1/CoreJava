@@ -2,6 +2,16 @@ package org.example.Multithreading;
 
 import java.util.concurrent.Exchanger;
 
+//Excahnge
+//point to point communi
+// Synchrounous
+//Simplicity for 2 threads
+//Symetric commu
+
+//Queue
+//Mutiple producer and consumers
+//Async
+//Buffering
 public class ExchangerDemo {
     public static void main(String args[]) {
         Exchanger<Integer> exchanger = new Exchanger<>();
