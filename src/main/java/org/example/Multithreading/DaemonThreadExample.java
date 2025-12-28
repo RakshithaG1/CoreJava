@@ -48,6 +48,7 @@ public class DaemonThreadExample{
         Thread thread2= new Thread(new UserHelper());
 
         thread1.start();
+        thread1.setDaemon(true);
         thread2.start();
     }
 }
