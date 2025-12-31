@@ -15,7 +15,7 @@ public class CallableDemo {
         //When u dont want to wait for longer time for getting Future value can usse this
         //depending on How much latency that thread will take
         System.out.println("Value ===="+value.get(6000, TimeUnit.MILLISECONDS));
-        System.out.println("Main Thraeds gets blocked till we get the value from Future ====");
+        System.out.println("CacheApp Thraeds gets blocked till we get the value from Future ====");
 
         //Attempts to cancel execution of this task.
         value.cancel(true);

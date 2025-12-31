@@ -21,7 +21,7 @@ public class JoinExampleThread {
 //            thread1.join();
 //            thread2.join();
         System.out.println("Done exceuting all threads");
-        //with join Main threads wait for cmpletion of Thread1 and Thread2
+        //with join CacheApp threads wait for cmpletion of Thread1 and Thread2
         //without above join print statement wil be printed
         //wait Till completion of that thread instructing the parent Thread or main thraed -->menaing of thread.join()
     }
