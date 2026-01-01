@@ -3,7 +3,7 @@ package org.example.Lock;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
-//3. Condition Variablesimport java.util.concurrent.locks.Condition;
+//3. Condition Variables import java.util.concurrent.locks.Condition;
 public class ProducerConsumer {
     private int value = 0;
     private ReentrantLock lock = new ReentrantLock();
