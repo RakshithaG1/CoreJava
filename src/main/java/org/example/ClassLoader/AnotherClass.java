@@ -8,4 +8,5 @@ public class AnotherClass {
     static {
         System.out.println("executing this block for forName()");
     }
+
 }
